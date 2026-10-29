@@ -1,5 +1,5 @@
 .header {
-border-bottom: 1px solid #e7e9fc;
+  border-bottom: 1px solid #e7e9fc;
 }
 .header-container {
   display: flex;
@@ -19,7 +19,6 @@ border-bottom: 1px solid #e7e9fc;
   line-height: 1.33;
   color: #2e2f42;
   letter-spacing: 0.03em;
-  
 }
 .logo-header:hover,
 .logo-header:focus {
@@ -37,7 +36,7 @@ border-bottom: 1px solid #e7e9fc;
 }
 .header-nav-link {
   display: block;
-  padding: 24px 0 23px;
+  padding: 24px 0;
 }
 .header-address {
   margin-left: auto;
