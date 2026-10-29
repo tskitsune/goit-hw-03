@@ -1,19 +1,17 @@
 .footer {
   background-color: #2e2f42;
-}
-.footer-container {
   padding: 100px 0;
 }
 .footer-motivation {
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  align-items: flex-start;
+  gap: 16px;
   max-width: 264px;
   
 
 }
 .logo-footer {
-  padding-bottom: 8px;
   text-transform: uppercase;
   font-size: 18px;
   font-family: Raleway;
@@ -21,7 +19,6 @@
   font-weight: 700;
   line-height: 1.33;
   letter-spacing: 0.03em;
-  
 }
 .logo-footer:hover,
 .logo-footer:focus {

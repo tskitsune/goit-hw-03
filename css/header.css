@@ -1,16 +1,18 @@
+.header {
+border-bottom: 1px solid #e7e9fc;
+}
 .header-container {
   display: flex;
   align-items: center;
   justify-items: stretch;
   justify-content: space-between;
-  padding: 24px 0 23px;
-  border-bottom: 1px solid #e7e9fc;
 }
 .header-nav {
   display: flex;
   gap: 76px;
 }
 .logo-header {
+  padding: 24px 0 23px;
   text-transform: uppercase;
   font-size: 18px;
   font-family: Raleway;
@@ -18,6 +20,7 @@
   line-height: 1.33;
   color: #2e2f42;
   letter-spacing: 0.03em;
+  
 }
 .logo-header:hover,
 .logo-header:focus {
@@ -34,7 +37,8 @@
   font-size: 16px;
 }
 .header-nav-link {
-  padding: 24px 0;
+  display: block;
+  padding: 24px 0 23px;
 }
 .header-address-list {
   display: flex;
@@ -46,5 +50,6 @@
   font-size: 16px;
 }
 .header-adress-link {
-  padding: 24px 0;
+  display: block;
+  padding: 24px 0 23px;
 }
