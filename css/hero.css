@@ -5,7 +5,7 @@
   letter-spacing: 0.02em;
 }
 .hero-container {
-  width: 496px;
+  max-width: 496px;
   padding: 0;
 }
 .hero-title {

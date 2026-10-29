@@ -4,8 +4,6 @@ border-bottom: 1px solid #e7e9fc;
 .header-container {
   display: flex;
   align-items: center;
-  justify-items: stretch;
-  justify-content: space-between;
 }
 .header-nav {
   display: flex;
@@ -13,6 +11,7 @@ border-bottom: 1px solid #e7e9fc;
 }
 .logo-header {
   padding: 24px 0 23px;
+  margin-right: 76px;
   text-transform: uppercase;
   font-size: 18px;
   font-family: Raleway;
@@ -40,6 +39,9 @@ border-bottom: 1px solid #e7e9fc;
   display: block;
   padding: 24px 0 23px;
 }
+.header-address {
+  margin-left: auto;
+}
 .header-address-list {
   display: flex;
   gap: 40px;
@@ -49,7 +51,7 @@ border-bottom: 1px solid #e7e9fc;
   font-weight: 400;
   font-size: 16px;
 }
-.header-adress-link {
+.header-address-link {
   display: block;
   padding: 24px 0 23px;
 }
