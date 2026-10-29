@@ -1,0 +1,24 @@
+.logo-header {
+  text-transform: uppercase;
+  font-size: 18px;
+  font-family: Raleway;
+  font-weight: 700;
+  line-height: 1.33;
+  color: #2e2f42;
+  letter-spacing: 0.03em;
+}
+.header-nav-list {
+  color: #2e2f42;
+  letter-spacing: 0.02em;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.header-address-list {
+  color: #434455;
+  font-style: normal;
+  letter-spacing: 0.02em;
+  font-weight: 400;
+  font-size: 16px;
+}
+
