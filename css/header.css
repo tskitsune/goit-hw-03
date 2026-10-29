@@ -1,3 +1,15 @@
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-items: stretch;
+  justify-content: space-between;
+  padding: 24px 0 23px;
+  border-bottom: 1px solid #e7e9fc;
+}
+.header-nav {
+  display: flex;
+  gap: 76px;
+}
 .logo-header {
   text-transform: uppercase;
   font-size: 18px;
@@ -7,18 +19,32 @@
   color: #2e2f42;
   letter-spacing: 0.03em;
 }
+.logo-header:hover,
+.logo-header:focus {
+  color: #2e2f42;
+}
+
 .header-nav-list {
+  display: flex;
+  justify-self: center;
+  gap: 40px;
   color: #2e2f42;
   letter-spacing: 0.02em;
   font-weight: 500;
   font-size: 16px;
 }
-
+.header-nav-link {
+  padding: 24px 0;
+}
 .header-address-list {
+  display: flex;
+  gap: 40px;
   color: #434455;
   font-style: normal;
   letter-spacing: 0.02em;
   font-weight: 400;
   font-size: 16px;
 }
-
+.header-adress-link {
+  padding: 24px 0;
+}
